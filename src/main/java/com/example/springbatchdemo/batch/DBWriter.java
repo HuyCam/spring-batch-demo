@@ -7,7 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-
+/*
+Item write use repository to write user to db (h2)
+ */
 @Component
 public class DBWriter implements ItemWriter<User> {
     @Autowired
